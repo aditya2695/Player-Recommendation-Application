@@ -21,6 +21,8 @@
 1. Go to Root directory and activate streamlit environment
 2. streamlit app_home.py
 
+<img src="images/app_screen.png">
+
 
 <img src="images/male_pca_cluster1.png">
 
