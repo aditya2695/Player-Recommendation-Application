@@ -2,7 +2,7 @@
 
 # Player Recommendation Application
 
-![design](images/architecture.png)
+<img src="https://cdn.mos.cms.futurecdn.net/y8Z3cKCQ6cZgTZNh5TeKgX.jpg">
 
 ### Instructions
 
