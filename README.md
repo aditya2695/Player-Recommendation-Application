@@ -1,6 +1,8 @@
-# Data Science Capstone Project
 
-# Player Recommendation Application
+
+<h1> Player Recommendation Application </h1>
+
+<h3> Data Science Capstone Project </h3>
 
 <img src="https://cdn.mos.cms.futurecdn.net/y8Z3cKCQ6cZgTZNh5TeKgX.jpg">
 
