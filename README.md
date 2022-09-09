@@ -16,10 +16,15 @@
 
 ### Running the Application
 
+<a href="https://aditya2695-player-recommendation-application-app-home-eu6qy9.streamlitapp.com/">Player Recommednation Application</a>
+
 1. Go to Root directory and activate streamlit environment
 2. streamlit app_home.py
 
+
 <img src="images/male_pca_cluster1.png">
+
+
 
 ### Testing the Application
 
