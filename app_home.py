@@ -23,9 +23,9 @@ class PlayerRecommendationSystem:
         """
 
         if self.gender=='Male':
-            player_df = pd.read_csv('data/fifa 22/players_22.csv', low_memory=False)
+            player_df = pd.read_csv('data/male/players_22.csv', low_memory=False)
         else:
-            player_df = pd.read_csv('data/fifa 22/female_players_22.csv', low_memory=False)
+            player_df = pd.read_csv('data/female/female_players_22.csv', low_memory=False)
         
     
         player_df.set_index('sofifa_id',inplace=True)
