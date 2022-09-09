@@ -2,6 +2,7 @@
 
 # Player Recommendation Application
 
+![design](images/architecture.png)
 
 ### Instructions
 
@@ -15,6 +16,8 @@
 
 1. Go to Root directory and activate streamlit environment
 2. streamlit app_home.py
+
+<img src="images/male_pca_cluster1.png">
 
 ### Testing the Application
 
