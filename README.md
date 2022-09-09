@@ -2,7 +2,16 @@
 
 <h1> Player Recommendation Application </h1>
 
-<h3> Data Science Capstone Project </h3>
+
+<h4>Introduction <h4>
+
+This project aims to find the right footballer to replace another player. In order to replace Neymar and Iniesta, FC Barcelona spent more than 400 million pounds on just 3 player acquisitions in the years 2018 and 2019. And all three failed to replace and create an impact. This resulted in the club spending too much and bringing huge debts. Similarly, Manchester United has spent over £1 billion and has continued to struggle over the past decade.
+
+The project aims to find solutions to the following problems:
+1.	Let's say player X departs a team, and the team needs a player who is similar to the player who is departing.
+2.	Clubs occasionally fail to sign their top transfer targets for a variety of reasons. Then they would have to choose the best alternate signing.
+3.	Coaches occasionally have to select a versatile player to replace one who is currently playing in a different position owing to an injury or another circumstance. 
+
 
 <img src="https://cdn.mos.cms.futurecdn.net/y8Z3cKCQ6cZgTZNh5TeKgX.jpg">
 
