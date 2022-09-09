@@ -3,7 +3,8 @@
 <h1> Player Recommendation Application </h1>
 
 
-<h4>Introduction </h4>
+
+### Introduction 
 
 <p>
 This project aims to find the right footballer to replace another player. In order to replace Neymar and Iniesta, FC Barcelona spent more than 400 million pounds on just 3 player acquisitions in the years 2018 and 2019. And all three failed to replace and create an impact. This resulted in the club spending too much and bringing huge debts. Similarly, Manchester United has spent over £1 billion and has continued to struggle over the past decade.
