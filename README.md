@@ -22,7 +22,7 @@ The project aims to find solutions to the following problems:
 
 <img src="https://cdn.mos.cms.futurecdn.net/y8Z3cKCQ6cZgTZNh5TeKgX.jpg">
 
-### Instructions
+### :book: Instructions
 
 1. Datasets stored in data directory
 2. First run EDA notebooks and then run modelling notebooks for male and female players
@@ -30,7 +30,7 @@ The project aims to find solutions to the following problems:
 4. After modelling the results are saved as 'models/male_pca_result.csv' and 'models/female_pca_result.csv' respectively.
 5. The app_home.py and tests.py of  the streamlit app file in the root directory uses the data and models directories.
 
-### Running the Application
+### :runner: Running the Application
 
 <a href="https://aditya2695-player-recommendation-application-app-home-eu6qy9.streamlitapp.com/">Player Recommendation Application</a>
 
@@ -44,7 +44,7 @@ The project aims to find solutions to the following problems:
 
 
 
-### Testing the Application
+### :microscope: Testing the Application
 
 1. Go to Root directory and activate streamlit environment
 2. python tests.py
