@@ -22,6 +22,9 @@ The project aims to find solutions to the following problems:
 
 <img src="https://cdn.mos.cms.futurecdn.net/y8Z3cKCQ6cZgTZNh5TeKgX.jpg">
 
+### Data Collection
+
+
 ### :book: Instructions
 
 1. Datasets stored in data directory
