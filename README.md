@@ -40,13 +40,20 @@ The project aims to find solutions to the following problems:
 1. Go to Root directory and activate streamlit environment
 2. streamlit app_home.py
 
-<img src="images/app_screen.png">
-
+<img src="images/app_screen.png" width="600">
+<br>
+<br>
 <table>
-  <tr>
+<tr>
+    <th>3D cluster plot of dribbling,passing and overall</th>
+    <th>Silhoutte score for different k values</th>
+</tr>
+<tr>
     <td><img src="images/male_pca_cluster1.png"></td>
     <td><img src="images/metrics.png"></td>
-  </tr>
+</tr>
+
+
 </table>
 
 
