@@ -42,9 +42,12 @@ The project aims to find solutions to the following problems:
 
 <img src="images/app_screen.png">
 
-
-<img src="images/male_pca_cluster1.png">
-
+<table>
+  <tr>
+    <td><img src="images/male_pca_cluster1.png"></td>
+    <td><img src="images/metrics.png"></td>
+  </tr>
+</table>
 
 
 ### :microscope: Testing the Application
