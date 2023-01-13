@@ -92,3 +92,6 @@ The project aims to find solutions to the following problems:
 1. Go to Root directory and activate streamlit environment
 2. python tests.py
 
+### Credits
+<a href="https://www.flaticon.com/free-icons/soccer-player" title="soccer player icons">Soccer player icons created by Freepik - Flaticon</a>
+
