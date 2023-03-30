@@ -7,8 +7,7 @@
 ### :seedling: Introduction 
 
 <p>
-This project aims to find the right footballer to replace another player. In order to replace Neymar and Iniesta, FC Barcelona spent more than 400 million pounds on just 3 player acquisitions in the years 2018 and 2019. And all three failed to replace and create an impact. This resulted in the club spending too much and bringing huge debts. Similarly, Manchester United has spent over £1 billion and has continued to struggle over the past decade.
-
+The Player Recommendation Application is a project that aims to find the right footballer to replace another player. Football clubs often struggle to replace key players when they depart, and this can lead to excessive spending on new acquisitions that fail to make an impact. For example, FC Barcelona spent over 400 million pounds on just three player acquisitions in 2018 and 2019 to replace Neymar and Iniesta, but all three failed to create the desired impact. Similarly, Manchester United has spent over £1 billion and has struggled over the past decade.
 
 The project aims to find solutions to the following problems:
 
@@ -22,13 +21,19 @@ The project aims to find solutions to the following problems:
 
 <img src="https://cdn.mos.cms.futurecdn.net/y8Z3cKCQ6cZgTZNh5TeKgX.jpg">
 
-### Data Collection
-<ul>
-<li>The FIFA dataset had separate files for male and female players</li>
-<li>Player dataset had 19239 rows and 110 columns, and the count of player abilities columns was over 50 </li>
-<li>Player abilities in FIFA 22 game data is on a scale of 0-100</li>
-<li>The reduced Data format includes player abilities like dribbling, passing, shooting, pace, positioning etc.</li>
-</ul>
+## 💻 Technologies Used
+
+    Python
+    Pandas
+    NumPy
+    Scikit-learn
+    t-SNE
+    KMeans
+    Streamlit
+
+### 📚 Dataset
+
+The project uses the FIFA 21 dataset, which includes detailed player attributes such as skill moves, passing, shooting, and dribbling. The dataset also includes physical attributes such as height, weight, and age.
 
 ### Feature Engineering
 <ul>
