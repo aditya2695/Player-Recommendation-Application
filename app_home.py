@@ -227,6 +227,10 @@ def main():
     # retrieves player id using the player name
     player_id = player_dict[player_name]
 
+    
+
+    st.write("Github link [link](https://github.com/aditya2695/Player-Recommendation-Application)")
+
     # button onclick action
     if st.sidebar.button('Find Players'):
 
