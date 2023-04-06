@@ -230,7 +230,7 @@ def main():
 
     st.markdown('''
     <a href="https://github.com/aditya2695/Player-Recommendation-Application">
-        <img src="images/github.png" />
+        <img src="https://raw.githubusercontent.com/aditya2695/Player-Recommendation-Application/main/images/github.png" />
     </a>''',
     unsafe_allow_html=True
 )
