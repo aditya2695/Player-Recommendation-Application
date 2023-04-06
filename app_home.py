@@ -265,9 +265,7 @@ def main():
     st.sidebar.markdown('''
     <a href="https://github.com/aditya2695/Player-Recommendation-Application" style="display: flex; align-items: flex-end;">
         <img src="https://raw.githubusercontent.com/aditya2695/Player-Recommendation-Application/main/images/github_icon.png" 
-        style="position:absolute;
-                bottom:0;
-                width:100%;"/>
+        style="height:50%;"/>
     </a>''',
     unsafe_allow_html=True
 )
