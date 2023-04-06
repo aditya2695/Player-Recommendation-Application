@@ -263,12 +263,10 @@ def main():
         st.caption('*Lower the score, Greater the similarity')
 
     st.sidebar.markdown('''
-    <div style="position: absolute; bottom: 0;">
-        <a href="https://github.com/aditya2695/Player-Recommendation-Application">
-            <img src="https://raw.githubusercontent.com/aditya2695/Player-Recommendation-Application/main/images/github.png" 
-            style="height:50%;"/>
-        </a>
-    </div>''',
+    <a href="https://github.com/aditya2695/Player-Recommendation-Application" style="display: flex; align-items: flex-end;">
+        <img src="https://raw.githubusercontent.com/aditya2695/Player-Recommendation-Application/main/images/github.png" 
+        style="height:50%;"/>
+    </a>''',
     unsafe_allow_html=True
 )
     
