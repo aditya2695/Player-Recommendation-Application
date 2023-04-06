@@ -224,6 +224,17 @@ def main():
     player_name = st.sidebar.selectbox(
             "Select Players", data_split_names
             )
+
+    st.sidebar.markdown('''
+    <a href="https://github.com/aditya2695/Player-Recommendation-Application">
+        <img src="https://raw.githubusercontent.com/aditya2695/Player-Recommendation-Application/main/images/github.png" 
+        style="position:relative;
+                bottom: 0;
+                height:50%;"/>
+    </a>''',
+    unsafe_allow_html=True
+    )
+
     # retrieves player id using the player name
     player_id = player_dict[player_name]
 
@@ -259,13 +270,7 @@ def main():
 
         st.caption('*Lower the score, Greater the similarity')
 
-    st.markdown('''
-    <a href="https://github.com/aditya2695/Player-Recommendation-Application">
-        <img src="https://raw.githubusercontent.com/aditya2695/Player-Recommendation-Application/main/images/github.png" />
-    </a>''',
-    unsafe_allow_html=True
-)
-
+    
 if __name__ == '__main__':
 
     main()
