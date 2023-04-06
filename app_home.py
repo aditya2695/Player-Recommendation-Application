@@ -228,12 +228,7 @@ def main():
     player_id = player_dict[player_name]
 
 
-    st.markdown('''
-    <a href="https://github.com/aditya2695/Player-Recommendation-Application">
-        <img src="https://raw.githubusercontent.com/aditya2695/Player-Recommendation-Application/main/images/github.png" />
-    </a>''',
-    unsafe_allow_html=True
-)
+
 
     # button onclick action
     if st.sidebar.button('Find Players'):
@@ -264,6 +259,12 @@ def main():
 
         st.caption('*Lower the score, Greater the similarity')
 
+    st.markdown('''
+    <a href="https://github.com/aditya2695/Player-Recommendation-Application">
+        <img src="https://raw.githubusercontent.com/aditya2695/Player-Recommendation-Application/main/images/github.png" />
+    </a>''',
+    unsafe_allow_html=True
+)
 
 if __name__ == '__main__':
 
