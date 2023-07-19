@@ -9,6 +9,9 @@
 <p>
 The Player Recommendation Application is a project that aims to find the right footballer to replace another player. Football clubs often struggle to replace key players when they depart, and this can lead to excessive spending on new acquisitions that fail to make an impact. For example, FC Barcelona spent over 400 million pounds on just three player acquisitions in 2018 and 2019 to replace Neymar and Iniesta, but all three failed to create the desired impact. Similarly, Manchester United has spent over £1 billion and has struggled over the past decade.
 
+<a href="https://aditya2695-player-recommendation-application-app-home-eu6qy9.streamlitapp.com/">Go to Application</a> :crystal_ball:
+<br>
+
 The project aims to find solutions to the following problems:
 
 </p>
