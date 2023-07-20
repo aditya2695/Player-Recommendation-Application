@@ -159,7 +159,9 @@ def display_PlayerDetails(player_name,player_info,gender):
     displays basic info of chosen player
     """
 
-    st.image(player_info['face'])        # shows player face
+    face_url = player_info['face'].replace(".com", ".net")
+
+    st.image(face_url)        # shows player face
     st.header(player_name.split(',')[0]) # shows player name
 
 
@@ -178,7 +180,7 @@ def display_PlayerDetails(player_name,player_info,gender):
 
         with col3:
             st.subheader('Special Traits')
-            st.write(f"**<font color='#5BB318'>{player_info['traits']}</font>**", unsafe_allow_html=True)
+            st.write(f"**<font color='#3CCF4E'>{player_info['traits']}</font>**", unsafe_allow_html=True)
                 
 
     # Female Players info
@@ -192,7 +194,7 @@ def display_PlayerDetails(player_name,player_info,gender):
         with col2:
             
             st.subheader('Special Traits')
-            st.write(f"**<font color='#5BB318'>{player_info['traits']}</font>**", unsafe_allow_html=True)
+            st.write(f"<font color='#3CCF4E'>{player_info['traits']}</font>", unsafe_allow_html=True)
 
 
 def main():
