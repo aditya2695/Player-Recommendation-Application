@@ -180,7 +180,7 @@ def display_PlayerDetails(player_name,player_info,gender):
             st.subheader('Special Traits')
             traits_list = player_info['traits'].split(",")  # Split traits by comma
             for trait in traits_list:
-                st.status(trait)
+                st.success(trait)
 
     # Female Players info
     else:
