@@ -180,7 +180,7 @@ def display_PlayerDetails(player_name,player_info,gender):
 
         with col3:
             st.subheader('Special Traits')
-            st.write(f"**<font color='#3CCF4E'>{player_info['traits']}</font>**", unsafe_allow_html=True)
+            st.write(f"<font color='#3CCF4E'>{player_info['traits']}</font>", unsafe_allow_html=True)
                 
 
     # Female Players info
