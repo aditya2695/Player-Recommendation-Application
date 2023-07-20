@@ -164,21 +164,23 @@ def display_PlayerDetails(player_name,player_info,gender):
 
 
     # Male Players info
-    if gender=="Male":
+    if gender == "Male":
 
-        col1, col2, col3 = st.columns(3) # creates 3 columns
+        col1, col2, col3 = st.columns(3)  # creates 3 columns
 
         with col1:
-            st.subheader('Current Club') 
-            st.image(player_info['club']) # shows club logo
+            st.subheader('Current Club')
+            st.image(player_info['club'])  # shows club logo
 
         with col2:
-            st.subheader('Positions')          
-            st.write(player_info['positions']) # shows player positions
+            st.subheader('Positions')
+            st.write(player_info['positions'])  # shows player positions
 
         with col3:
             st.subheader('Special Traits')
-            st.write(player_info['traits']) # shows special traits
+            traits_list = player_info['traits'].split(",")  # Split traits by comma
+            for trait in traits_list:
+                st.status(trait)
 
     # Female Players info
     else:
