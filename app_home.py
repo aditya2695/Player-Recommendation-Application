@@ -178,9 +178,8 @@ def display_PlayerDetails(player_name,player_info,gender):
 
         with col3:
             st.subheader('Special Traits')
-            traits_list = player_info['traits'].split(",")  # Split traits by comma
-            for trait in traits_list:
-                st.info(trait)
+            st.write(f"**<font color='#5BB318'>{player_info['traits']}</font>**", unsafe_allow_html=True)
+                
 
     # Female Players info
     else:
@@ -193,7 +192,7 @@ def display_PlayerDetails(player_name,player_info,gender):
         with col2:
             
             st.subheader('Special Traits')
-            st.write(player_info['traits'])    # shows special traits
+            st.write(f"**<font color='#5BB318'>{player_info['traits']}</font>**", unsafe_allow_html=True)
 
 
 def main():
@@ -252,7 +251,11 @@ def main():
         # displays basic info of chosen player
         display_PlayerDetails(player_name,player_info,gender)
 
-        st.info('The ideal replacement is '+similiar_players.iloc[0]['Player Name'])
+        # Get the ideal replacement player name from the DataFrame
+        ideal_replacement_name = similiar_players.iloc[0]['Player Name']
+
+        # Display the info message with the player name in bold
+        st.info(f"The ideal replacement is **{ideal_replacement_name}**")
 
         st.header("Here are the most similiar players")
 
